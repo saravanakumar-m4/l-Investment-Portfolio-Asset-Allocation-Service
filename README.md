@@ -164,30 +164,43 @@ CASH   = 5,000
 
 ## 📂 Package Structure
 
-```text
-com.investment_portfolio_service
-│
-├── allocation
-│   ├── AllocationService
-│
-├── rebalance
-│   ├── RebalanceService
-│
-├── portfolio
-│   ├── Portfolio
-│   ├── PortfolioAsset
-│   ├── PortfolioController
-│   ├── PortfolioService
-│
-├── asset
-│   ├── Asset
-│   ├── AssetRepository
-│
+ com.investment_portfolio_service
+├── InvestmentPortfolioServiceApplication.java
 ├── config
-│   ├── SwaggerConfig
-│
-└── InvestmentPortfolioApplication
-```
+│   ├── SecurityConfig.java
+│   ├── JwtFilter.java
+│   └── SwaggerConfig.java
+├── auth
+│   ├── AuthController.java
+│   ├── AuthService.java
+│   ├── AuthRequest.java
+│   └── AuthResponse.java
+├── user
+│   ├── User.java
+│   ├── UserRepository.java
+│   └── UserService.java
+├── asset
+│   ├── Asset.java
+│   ├── AssetRepository.java
+│   ├── AssetService.java
+│   └── AssetController.java
+├── portfolio
+│   ├── Portfolio.java
+│   ├── PortfolioAsset.java
+│   ├── PortfolioRepository.java
+│   ├── PortfolioAssetRepository.java
+│   ├── PortfolioService.java
+│   └── PortfolioController.java
+├── allocation
+│   └── AllocationService.java
+├── rebalance
+│   └── RebalanceService.java
+|   └── RebalanceController.java
+├── exception
+│   ├── GlobalExceptionHandler.java
+│   └── ResourceNotFoundException.java
+└── util
+└── JwtUtil.java
 
 ---
 
@@ -209,7 +222,6 @@ GET /api/portfolios/{id}
 
 ```http
 POST /api/portfolios/{id}/rebalance
-```
 
 
 ---
