@@ -223,7 +223,7 @@ GET /api/portfolios/{id}
 ```http
 POST /api/portfolios/{id}/rebalance
 
-
+```
 ---
 
 ## 🎯 What This Project Demonstrates
@@ -238,7 +238,7 @@ POST /api/portfolios/{id}/rebalance
 
 ## 👨‍💻 Author
 
-**Saravanan M**
+**Saravanakumar M**
 Java | Spring Boot Developer
 
 ---
