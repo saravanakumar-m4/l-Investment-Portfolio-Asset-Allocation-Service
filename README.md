@@ -26,6 +26,7 @@ This project is designed to demonstrate **core backend engineering skills** usin
 * **Spring Data JPA**
 * **H2 / MySQL (configurable)**
 * **JUnit 5** (unit testing)
+* * **Spring Security - JWT**
 * **Swagger / OpenAPI**
 * **Maven**
 
