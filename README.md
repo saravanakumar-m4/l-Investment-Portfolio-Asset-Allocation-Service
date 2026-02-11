@@ -224,7 +224,7 @@ CASH   = 5,000
 │   ├── GlobalExceptionHandler.java
 │   └── ResourceNotFoundException.java
 └── util
-└── JwtUtil.java
+    └── JwtUtil.java
 
 ```
 
