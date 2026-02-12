@@ -185,9 +185,9 @@ CASH   = 5,000
 * Trigger rebalance API
 * Verify generated actions
 
-```
-## 📂 Package Structure
 
+### 📂 Package Structure
+```
  com.investment_portfolio_service
 ├── InvestmentPortfolioServiceApplication.java
 ├── config
